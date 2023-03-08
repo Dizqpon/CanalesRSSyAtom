@@ -1,0 +1,14 @@
+<rss version="2.0">
+    <channel>
+        <title>La cocina andaluza en la historia</title>
+        <link>https://www.cocinaandaluza.com/</link><!-- -->
+        <description>Este es un canal en el que se van mostrando webs relacionadas con la cocina andaluza y con recetas del día a día de nuestra gatronomía</description>
+        <language>es-es</language>
+        <item>
+            <title>Recetas Cocina Andaluza</title>
+            <link>https://www.cocinaandaluza.com/</link>
+            <description>En Cocina Andaluza y Española ponemos a tu disposición la mejor colección de recetas de cocina casera de nuestra tierra Andalucía, España, que hemos recopilado, recuperado y rescatado, a lo largo de los años y que te presentamos como recetas escritas explicadas paso a paso con fotos en esta web cocinaandaluza.com y en vídeos cortos de unos minutos en nuestro canal de Youtube Andalucía Videorecetas que te invitamos a conocer.</description>
+            <guid>https://www.cocinaandaluza.com/</guid>
+        </item>
+    </channel>
+</rss>
