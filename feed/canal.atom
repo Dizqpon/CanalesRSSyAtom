@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
-    <title></title>
+    <!-- Elemento obligatorios: title, id y updated -->
+    <!-- Elementos recomendados: author, link-->
+    <!-- Elementos opcionales: category, contributor, generator, icon, logo, rights, subtitle -->
+    <title type="text">La cocina andaluza en la historia</title>
+    <id>https://dizqpon.github.io/CanalesRSSyAtom/</id>
+    <updated>2018-05-07T17:32:06Z</updated>
+    <link rel="self" type="application/atom+xml" href="feed/canal.atom" />
+    <link rel="alternate" type="text/html" href="https://dizqpon.github.io/CanalesRSSyAtom" />
+    <author>
+        <name>David Izquierdo</name>
+        <email>davidizquierdo@gmail.com</email>
+    </author>
+    <category term="comida" />
+    <generator version="1.0">vim</generator>
+    <icon>img/mapa-andalucia.png</icon>
+    <logo>img/logo_canal_andalucia.png</logo>
+    <rights>Creative Common</rights>
+    <subtitle type="text">La cocina andaluza</subtitle>
+
+    <!-- 1º Blog -->
+    <entry>
+        <!-- Elemento obligatorios: title, id y updated -->
+        <!-- Elementos recomendados: author, link, content y summary-->
+        <!-- Elementos opcionales: category, contributor, published, source, rights -->
+        <title>Las 33 mejores recetas de la cocina andaluza</title>
+        <id>https://www.directoalpaladar.com</id>
+        <updated>2022-10-02T10:00:00-05:00</updated>
+        <author>
+            <name>PAKUS</name>
+            <email>futuroblogero@gmail.com</email>
+        </author>
+        <link rel="alternate" type="text/html" href="https://www.directoalpaladar.com/recetario/13-mejores-recetas-cocina-andaluza" />
+        <summary>Las 33 mejores recetas de la cocina andaluza</summary>
+        <category term="comida" />
+        <contributor>
+            <name>Ana Gómez</name>
+        </contributor>
+        <published>2018-05-10T09:12:30Z</published>
+        <rights type="text">Copyright</rights>
+    </entry>
+
+    <!-- 2º Noticia -->
+    <entry>
+        <title>QUÉ COMER EN ANDALUCÍA: PLATOS TÍPICOS DE LA GASTRONOMÍA ANDALUZA</title>
+        <link rel="alternate" type="text/html"
+            href="https://www.mochileandoporelmundo.com/que-comer-en-andalucia-platos-tipicos/" />
+        <updated>2022-06-11T12:00:00-07:00</updated>
+        <author>
+            <name>MOCHILEANDO</name>
+            <email>info@mochileandoporelmundo.com</email>
+        </author>
+        <id>https://www.mochileandoporelmundo.com/</id>
+        <summary>Esto es un blog de comidas por España</summary>
+        <category term="comida" />
+    </entry>
+
+    <!-- 3º Noticia -->
+    <entry>
+        <title>Los productos de calidad andaluces con denominación de origen, a la conquista de Madrid Fusión 2023</title>
+        <link rel="alternate" type="text/html"
+            href="https://www.europapress.es/epagro/noticia-productos-calidad-andaluces-denominacion-origen-conquista-madrid-fusion-2023-20230120135701.html" />
+        <updated>2023-01-25T06:00:00-05:00</updated>
+        <id>https://www.europapress.es/</id>
+        <summary>Aqui una noticia sobre el congreso de Madrid fusión</summary>
+        <author>
+            <name>EUROPAPRESS</name>
+            <email>info@europapress.com</email>
+        </author>
+        <published>2019-12-18T19:27:00Z</published>
+        <rights type="text">Copyright</rights>
+        <category term="comida" />
+    </entry>
+
 </feed>
+<!-- Más información:
+https://validator.w3.org/feed/docs/atom.html
+http://www.atomenabled.org/developers/syndication/ -->
