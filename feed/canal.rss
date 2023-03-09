@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
     <channel>
         <title>La cocina andaluza en la historia</title>
-        <link>https://dizqpon.github.io/CanalesRSSyAtom/</link><!-- He subido el sitio a GitHub
+        <link>https://dizqpon.github.io/CanalesRSSyAtom/feed/canal.rss</link><!-- He subido el sitio
+        a GitHub
         Pages para la tarea -->
         <description>Este es un canal en el que se van mostrando webs relacionadas con la cocina
             andaluza y con recetas del día a día de nuestra gatronomía</description>
         <image>
-            <url>https://www.guiaespana.net/wp-content/uploads/2020/03/mapa-politico-andalucia.jpg</url>
+            <url>https://dizqpon.github.io/CanalesRSSyAtom/img/mapa-andalucia.png</url>
             <title>La cocina andaluza en la historia</title>
-            <link>https://dizqpon.github.io/CanalesRSSyAtom/</link>
+            <link>https://dizqpon.github.io/CanalesRSSyAtom/feed/canal.rss</link>
         </image>
         <language>es-es</language>
         <webMaster>david.iz.po@gmail.com (David)</webMaster>
+        <atom:link href="https://dizqpon.github.io/CanalesRSSyAtom/feed/canal.rss" rel="self"
+            type="application/rss+xml" />
         <item>
             <title>Las 33 mejores recetas de la cocina andaluza</title>
-            <enclosure url="../img/mapa-andalucia.png" type="image/jpeg" length="12345" />
+            <enclosure url="https://dizqpon.github.io/CanalesRSSyAtom/img/mapa-andalucia.png"
+                type="image/png" length="12345" />
             <category>Comida</category>
             <pubDate>Mon, 28 Feb 2022 10:00:00 +0100</pubDate>
             <description>Hablar de la gastronomía de Andalucía es hablar de una parte muy importante
@@ -37,6 +41,8 @@
         <item>
             <title>QUÉ COMER EN ANDALUCÍA: PLATOS TÍPICOS DE LA GASTRONOMÍA ANDALUZA</title>
             <category>Comida</category>
+            <pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+            <enclosure url="https://www.mochileandoporelmundo.com/wp-content/uploads/2020/04/Mochileando-por-el-Mundo-Bienvenido.jpg" type="image/png" length="12345" />
             <link>https://www.mochileandoporelmundo.com/que-comer-en-andalucia-platos-tipicos/</link>
             <description>Andalucía es nuestra segunda casa y su cazón en adobo una de nuestras más
                 grandes tentaciones. Y es que ¿cómo resistir a tan sabroso bocado? A este y al
@@ -49,10 +55,22 @@
             <guid>https://www.mochileandoporelmundo.com/</guid>
         </item>
         <item>
-            <title>Recetas Cocina Andaluza</title>
-            <link>https://www.divinacocina.es/recetas-andaluzas/</link>
-            <description>Canal donde se muestran muchas recetas de la comida diaria de Andalucía</description>
-            <guid>https://www.divinacocina.es/</guid>
+            <title>Los productos de calidad andaluces con denominación de origen, a la conquista de
+                Madrid Fusión 2023</title>
+            <category>Comida</category>
+            <pubDate>Sun, 01 Jan 2023 06:00:00 +0100</pubDate>
+            <enclosure url="https://img.europapress.es/fotoweb/fotonoticia_20230120135701_640.webp" type="image/png" length="12345" />
+            <link>https://www.europapress.es/epagro/noticia-productos-calidad-andaluces-denominacion-origen-conquista-madrid-fusion-2023-20230120135701.html</link>
+            <description>Los productos de calidad andaluces con denominación de origen, a la
+                conquista de Madrid Fusión 2023. Los productos de calidad andaluces con denominación de origen, a la conquista de
+                Madrid Fusión 2023 Los productos de calidad andaluces con denominación de origen, a
+                la conquista de Madrid Fusión 2023 La Junta de Andalucía ha indicado este viernes
+                que regresará a Madrid Fusión, el gran congreso gastronómico que se celebra del 23
+                al 25 de enero en Ifema, para respaldar los alimentos andaluces con denominación de
+                origen, como el jamón, el vino, la aceituna de mesa o el aceite de oliva v ...
+            </description>
+            <author>info@europapress.com (EUROPAPRESS)</author>
+            <guid>https://www.europapress.es/</guid>
         </item>
     </channel>
 </rss>
